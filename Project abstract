@@ -1,0 +1,11 @@
+Humans can visually sense the world around them by using their eyes and brains. Computer vision works on enabling computers to see and process images  in the same way that human vision does. Several algorithms developed in the area of computer vision to recognize images. The goal of this project is to create a model to identify and determine the hand written digit from its data set with better accuracy and aim to complete this by using support vector machine algorithm. The main aim is to create a model which cam recognize the digit but can extend for letters and then a persons hand writing.
+
+SVM is a popular algorithm for digit recognition because it is effective at handling high-dimensional data with a limited amount of training data. In SVM, the hyperplane that separates the classes is found by maximizing the margin between the closest points of the different classes. This approach results in a robust model that can generalize well to new data.
+
+To use SVM for digit recognition, a dataset of labeled images of digits is needed. The images are typically preprocessed to extract features that can be used as inputs to the SVM algorithm. Commonly used features include pixel values, edge detection, and HOG (Histogram of Oriented Gradients) features. These features are then used to train the SVM model, which learns to differentiate between different digits.
+
+One of the advantages of SVM is that it can handle non-linearly separable data by using kernel methods. The kernel function maps the original data into a higher-dimensional space where it can be linearly separable. Commonly used kernel functions for digit recognition include the polynomial, radial basis function (RBF), and sigmoid kernels.
+
+Once the SVM model is trained, it can be used to predict the class of new, unseen images of digits. The accuracy of the model can be evaluated using metrics such as precision, recall, and F1 score. To improve the performance of the model, techniques such as cross-validation and parameter tuning can be used.
+
+In conclusion, digit recognition using SVM is a powerful technique that has found many practical applications in fields such as image processing and OCR. SVM's ability to handle high-dimensional data with limited training data and its ability to handle non-linearly separable data make it an effective tool for digit recognition.
